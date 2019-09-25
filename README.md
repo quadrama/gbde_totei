@@ -14,7 +14,7 @@ for any occuring errors.
 
 ## Requirements & Installation
 
-No installation is needed -- you can simply run the script after cloning this
+No installation is needed – you can simply run the script after cloning this
 repository. It requires Python 3 with the packages *beatifulsoup4*, *lxml* and
 *requests* installed. These requirements can be installed with pip from within
 the repository folder (after cloning it) like so:

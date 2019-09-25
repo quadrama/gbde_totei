@@ -3,10 +3,10 @@
 gbde_totei is a python script to parse drama texts from [Projekt Gutenberg-
 DE](https://gutenberg.spiegel.de/), put them into TEI format and locally save
 the output TEI-XML file. TEI files created with this script *roughly* comply to
-the general structure of the [GerDraCor German Drama Corpus]
-(https://github.com/quadrama/gerdracor), at least so that they can be loaded
-and analyzed with the `loadDramaTEI`-function of the R-library
-[DramaAnalysis](https://github.com/quadrama/DramaAnalysis).
+the general structure of the
+[GerDraCor German Drama Corpus](https://github.com/quadrama/gerdracor), at
+least so that they can be loaded and analyzed with the `loadDramaTEI`-function
+of the R-library [DramaAnalysis](https://github.com/quadrama/DramaAnalysis).
 Please be aware that the script is in an early stage of development and errors
 are likely to occur for some dramas, as the html-structure of Projekt
 Gutenberg-DE can suffer from inconsistencies. You are welcome to open issues

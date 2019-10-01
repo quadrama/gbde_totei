@@ -33,7 +33,7 @@ This script can be used to extract a drama from gutenberg.spiegel.de and
 convert it into a valid XML file in TEI-format.
 
 example use:
-  python gbde_totei.py 'https://gutenberg.spiegel.de/buch/die-weber-9199/4' 5 'Hauptmann, Gerhart' 'Die Weber'
+  python gbde_totei.py "https://gutenberg.spiegel.de/buch/die-weber-9199/4" 5 "Hauptmann, Gerhart" "Die Weber"
 
 positional arguments:
   start_url             link to the gutenbergde-webpage that contains the start of the drama text

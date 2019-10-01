@@ -5,7 +5,7 @@
 convert it into a valid XML file in TEI-format.
 
 example use:
-  python gbde_totei.py 'https://gutenberg.spiegel.de/buch/die-weber-9199/4' 5 'Hauptmann, Gerhart' 'Die Weber'"""
+  python gbde_totei.py "https://gutenberg.spiegel.de/buch/die-weber-9199/4" 5 "Hauptmann, Gerhart" "Die Weber" """
 
 import os
 import argparse
@@ -238,7 +238,7 @@ if __name__ == "__main__":
                             help="directory where output is saved (default = current working directory)")
     arg_parser.add_argument("-at", "--act_trigger", default="Akt",
                             help="trigger word in heading that indicates a new act (default = 'Akt')")
-    arg_parser.add_argument("-st", "--scene_trigger", default="Scene",
+    arg_parser.add_argument("-st", "--scene_trigger", default="Szene",
                             help="trigger word in heading that indicates a new scene (default = 'Szene')")
     args = arg_parser.parse_args()
 
